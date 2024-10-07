@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "6dd1998e-e417-4316-b05a-deecd61848a3",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38754959"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
